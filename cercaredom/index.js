@@ -1,5 +1,3 @@
-const $body = document.querySelector("body");
-
 const $elementiParagrafo = document.querySelectorAll(".paragrafo");
 
 $elementiParagrafo.forEach((elemento) => {
@@ -8,7 +6,7 @@ $elementiParagrafo.forEach((elemento) => {
 
 const $elemento3 = document.getElementById("elemento-3");
 
-console.log($elemento3.innerText);
+console.log($elemento3?.innerText);
 
 const $elementiH2 = document.querySelectorAll("h2");
 

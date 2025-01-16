@@ -16,8 +16,8 @@
       const ul = document.querySelector("ul");
       const liSecondo = ul.children[1];
 
-      console.log(liSecondo.parentElement.innerText); // elemento padre di ul
-      console.log(ul.children[1].innerText); // secondo elemento figlio di ul
+      console.log(ul.parentElement.innerHTML); // elemento padre di ul
+      console.log(ul.children[1].innerHTML); // secondo elemento figlio di ul
       console.log(liSecondo.nextElementSibling.innerText); // elemento fratello successivo del secondo li
       console.log(liSecondo.previousElementSibling.innerText); // elemento fratello precedente del secondo li
     </script>
